@@ -58,5 +58,4 @@ public class CmmConfigure implements WebMvcConfigurer {
 		return encryptor;
 	}
 
-
 }
