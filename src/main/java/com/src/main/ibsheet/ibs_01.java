@@ -15,7 +15,7 @@ public class ibs_01 {
 	// spring.mvc.view.suffix=.jsp
 	///////////////////////////////////////////////
 
-	@GetMapping("/name")
+	@GetMapping("/jsp/name")
 	public String jsp(Model model) {
 		model.addAttribute("name", "홍길동");
 		return "/main";
