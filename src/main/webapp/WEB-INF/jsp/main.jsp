@@ -7,12 +7,9 @@
 </head>
 <body>
 <pre>
-	nnn 의 value :
 
-<%
-	String[] nnn = request.getParameterValues("nnn"); //배열은 values로 받음.
-	out.print("name[0] : " + nnn[0]);
-%>
+	name : ${name}
+
 </pre>
 </body>
 </html>
